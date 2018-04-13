@@ -1,0 +1,10 @@
+<!--pages/enterprise/enterprise.wxml-->
+<block>
+<view class='box'>
+<view class='register-enroll'>
+<view class='register' bindtap='rpRegistration'><button>企业注册</button></view>
+<view class='enroll' bindtap='rpLogin'><button>企业登录</button></view>
+</view>
+
+</view>
+</block>

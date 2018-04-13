@@ -1,0 +1,221 @@
+@import '../../template/datepicker/index.wxss';
+.kuang{
+  height: 20epx;
+  padding: 20rpx;
+  background: #EEEFF1;
+}
+.shu{
+  height: 60rpx;
+  font-size: 24rpx;
+  background: #fff;
+  border-radius:20rpx;
+  padding-left: 20rpx;
+  color: #C8C8CB;
+}
+.position{
+  padding-top: 20rpx;
+  padding: 20rpx 10rpx;
+}
+.hot{
+  font-size: 32rpx;
+  color: #ccc;
+}
+.recommend{
+  display: flex;
+  display: inline-block;
+  padding: 10rpx 0 0 25rpx;
+}
+.recommend view{
+  width: 140rpx;
+  padding: 15rpx 0 15rpx 0;
+  margin: 15rpx;
+  border: 1rpx solid #ccc;
+  font-size: 24rpx;
+  float: left;
+  flex:1;
+	justify-content:space-around;
+	display: flex;
+}
+
+
+.bao{
+  width: 100%;
+  border-top: 1px solid black;
+  padding-top: 20rpx;
+}
+.title,.Selection{
+  width: 95%;
+  font-size: 21rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+ .position{
+  color: gray;
+} 
+.label{
+  color:orange;
+}
+.Selection>.bq{
+  margin-left: 20%;
+}
+.appointent-date-div{
+  display: inline-block;
+}
+.bq .data_name{
+  background-color: #eff9fe;
+  border: 1px solid #e0edfe;
+  padding: 3px;
+  display: inline-block;
+  color: #8b8d8f;
+  margin-right: 5rpx;
+  margin-bottom: 10rpx;
+}
+.Working_place,.Working_address{
+  width: 90%;
+  font-size: 22rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: gray;
+}
+.wwh_r{
+  color: red;
+}
+.wwh_btn{
+  display: inline-block;
+  font-size: 25rpx;
+  color: white;
+  background-color: #2f9ddf;
+  vertical-align: middle;
+}
+.address_in{
+  width: 50%;
+  border: 1px solid #c4ced7;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10rpx;
+}
+.address_btn{
+  display: inline-block;
+  font-size: 25rpx;
+  color: white;
+  background-color: #2f9ddf;
+  vertical-align: middle;
+  padding: 1px 5px 1px 5px;
+  margin-left: 10rpx;
+}
+.wwh_Date{
+  width: 99%;
+  font-size: 25rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: gray;
+}
+.bq>.active{
+  background-color: red;
+  color:white;
+}
+.datepicker-box{
+  display: inline-block;
+  vertical-align: middle; 
+}
+.section{
+   border: 1px solid #c4ced7;
+   padding:20rpx;
+    display: inline-block;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+.box{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	overflow: hidden;
+	display: flex;
+	flex-direction:column;
+}
+.zhi{
+  width: 100%;
+  height: 100%;
+  clear: both;
+}
+.zhi-one{
+  width: 80%;
+  height: 100%;
+  padding: 10rpx 0;
+  float: left;
+  text-align: center;
+  font-size: 22rpx;
+  overflow: hidden;
+	display: flex;
+	flex-direction:row ;
+}
+.zhi-one .one{
+   padding: 10rpx;
+   float: left;
+   margin-right: 5rpx;
+
+}
+.zhi-one .tex{
+  color: gray;
+  padding: 10rpx;
+}
+.zhi-one .one text{
+  padding-right: 5rpx;
+   color: red;
+}
+.zhi-one .o{
+   width: 50rpx;
+   padding: 10rpx;
+   background-color: #d2e8f6;
+   border: 1rpx solid #c3cdd7;
+   margin-right: 10rpx;
+}
+.zhi-one text{
+  
+   padding: 10rpx;
+  
+  
+   
+}
+.zhi-one .t{
+  
+   padding: 10rpx;
+   background-color: #d2e8f6;
+   border: 1rpx solid #c3cdd7;
+   margin-right: 10rpx;
+}
+.sol{
+  display: inline-block;
+}
+
+
+.active{
+color: white;
+}
+
+
+.active-tag .data_name{
+  color:white;
+  background: black;
+}
+
+
+
+
+
+
+
+
+

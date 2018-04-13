@@ -1,0 +1,61 @@
+/* pages/workDetails/workDetails.wxss */
+.box{
+	width: 100%;
+	height: 100%;
+	background-color: #f8f8f8;
+	overflow: hidden;
+	display: flex;
+	flex-direction:column;
+  position: relative;
+}
+
+.head{
+	width: 100%;
+	height: 345rpx;
+}
+.banner{
+	text-align: center;
+	width: 100%;
+	height: 345rpx;
+	line-height: 345rpx;
+}
+.img{
+  width:120rpx;
+  height: 120rpx;
+  
+  
+  vertical-align: middle;
+}
+
+
+.main{
+  margin-top: 25rpx;
+	width:'100%';
+	height:'100%';
+	background-color: white;
+}
+.main .main-list:nth-last-child(1){
+  border-bottom: 0rpx solid ;
+}
+.main-list{
+	width: 95%;
+  border-bottom: 1rpx solid #e6e6e6;
+  font-size: 30rpx;
+  padding: 25rpx 0;
+	margin-left: 5%;
+}
+.main-list image{
+	width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+	margin-right: 38rpx;
+}
+
+.foot{
+	width:'100%';
+	height:'100%';
+	background-color: yellow;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

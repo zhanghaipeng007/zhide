@@ -1,0 +1,37 @@
+<view>
+
+
+<view class='top'>
+<view class='xian'></view>
+<text>企业账号登录</text>
+<view class='xian'></view>
+</view>
+
+
+<view>
+<input class='denglu' placeholder="用户名"></input>
+<input class='denglu' placeholder="密码"></input>
+<button class='but'>点击完成验证</button>
+</view>
+
+<view class='text'>
+<radio-group class="radio-group" bindchange="radioChange">
+ <label class="radio" >
+ <radio value="true" checked=""/>
+ </label>
+</radio-group>
+我已阅读并同意智联招聘《用户服务协议》和《隐私政策》
+</view>
+
+<button  class='log'  bindtap='nav'>登录</button>
+
+
+<view class='text size'>
+<text>没有智联账号？
+</text>
+<view class='se' bindtap='zzi'>立即注册</view>
+<text class='sb'>忘记密码</text>
+</view>
+
+
+</view>

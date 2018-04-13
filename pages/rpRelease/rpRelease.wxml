@@ -1,0 +1,157 @@
+<block>
+<import src="../../template/datepicker/index.wxml"/>
+
+<view>
+  <view class='kuang'>
+    <input placeholder='输入您要招的职位名称，如销售' class='shu'></input>
+  </view>
+
+  <view class='position'>
+    <text class='hot'>热门职位推荐</text>
+    <view class='recommend'>
+      <view>服务员</view>
+      <view>营业员</view>
+      <view>客服</view>
+      <view>销售代表</view>
+      <view>促销员</view>
+      <view>文员</view>
+      <view>迎宾</view>
+      <view>前台</view>
+      <view>收银员</view>
+      <view>保安</view>
+    </view>
+  </view>
+
+</view>
+
+
+
+
+
+<view class='box'>
+    <view class='zhi'>
+         <view class='zhi-one'>
+              <view class='one tex'><text>*</text>职业性质</view>
+              
+                    <block wx:for="{{hcatalogs}}">
+                        <text data-select="{{item.hselect}}" class="{{item.hselect == hcatalogSelect ? 'active':''}} one o" bindtap="hchooseCatalog">{{item.hcatalogName}}</text>
+                        </block>
+         </view>
+         <view class='zhi-one'>
+              <view class='one tex'><text>*</text>招聘岗位</view>
+             
+                  <picker bindchange="bindCasPickerChange" value="{{areaIndex}}" range="{{area}}" class='sol one t'>  
+                      <view class="picker">  
+                        {{area[areaIndex]}}  
+                      </view>  
+                  </picker>
+             
+         </view>
+
+           <view class='zhi-one'>
+              <view class='one tex'><text>*</text>招聘要求</view>
+              <view class='one t'>
+                  <picker bindchange="bbb" value="{{bb}}" range="{{b}}" class='sol'>  
+                      <view class="picker">  
+                        {{b[bb]}}  
+                      </view>  
+                  </picker>
+              </view>
+             <text>人</text>
+              <view class='one t'>
+                  <picker bindchange="learnnn" value="{{learnn}}" range="{{learn}}" class='sol'>  
+                      <view class="picker">  
+                        {{learn[learnn]}}  
+                      </view>  
+                  </picker> 
+              </view>
+              <text>含以上</text>
+             <view class='one t'>
+                  <picker bindchange="exppp" value="{{expp}}" range="{{exp}}" class='sol'>  
+                      <view class="picker">  
+                        {{exp[expp]}}  
+                      </view>  
+                  </picker> 
+              </view>
+         </view>
+
+         <view class='zhi-one'>
+              <view class='on tex'><text>*</text>职位月薪</view>
+              <view class='one t'>
+                  <picker bindchange="moneyyy" value="{{moneyy}}" range="{{money}}" class='sol'>  
+                      <view class="picker">  
+                        {{money[moneyy]}}  
+                      </view>  
+                  </picker>
+              </view>
+         </view> 
+
+         <view class='zhi-one'>
+              <view class='one tex'><text>*</text>职位描述</view>
+              <textarea class="weui-textarea" placeholder="岗位职责 ，  任职要求" style="height: 100rpx;width:75%" />
+         </view>
+
+         <view class='zhi-one'>
+              <view class='one tex'><text>*</text>公司简介</view>
+              <textarea class="weui-textarea" placeholder="公司简介" style="height: 100rpx;width:75%" />
+         </view>     
+    </view>
+</view>
+
+
+
+
+  <view class='bao'>
+    <view class='title'>
+        <text class='position'>职位亮点标签　</text>
+        选择亮点,提升职位吸引力,增加职位投递!
+        <text class='label'>（最多可选8个标签）</text>
+    </view>
+    <view class='Selection '>
+       <view class='bq'>
+        <block>
+          <view class='appointent-date'>
+            <view class="appointent-date-div {{item.state==1?'active-tag':''}}" bindtap="{{bbb.length!=9?'select_date':'ddd'}}" wx:for="{{datess}}" data-key='{{index}}'>
+            
+            <text class='data_name'>{{item.name}}</text>
+            
+            </view> 
+            </view>
+        </block>
+       </view>
+    </view>
+    <view class='Working_place'>
+      <text class='wwh_r'>*</text>
+        工作地点　
+      <button class='wwh_btn'>添加/删除发布地点</button>
+    </view>
+    <view class='Working_address'>
+      <text class='wwh_r'>*</text>
+        工作地址　
+        <input type='text' value='{{wx}}' class='address_in' id='a'></input>
+        <button class='address_btn' bindtap='et'>标注地理位置</button>
+    </view>
+    <view class='wwh_Date'>
+      <text class='wwh_r'>*</text>
+        发布截止日期
+
+
+        <view class="section">  
+          <picker mode="date" value="{{date}}" start="1978-01-01" end="2017-1-23" bindchange="bindDateChange">  
+            <view class="picker">  
+              请选择日期: {{dates}}  
+            </view>  
+          </picker>  
+        </view>  
+
+
+
+        
+            <view class="datepicker-box">
+                <template is="datepicker" data="{{...datepicker}}" />
+            </view>
+
+    </view>
+  </view>
+</block>
+

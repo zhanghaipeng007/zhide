@@ -1,0 +1,81 @@
+/* pages/myWork/myWork.wxss */
+.work {
+  width: 80%;
+  height: 100%;
+  margin: 10px auto;
+  border: none;
+  border: 2px solid #ececec;
+  border-radius: 10px;
+  padding-left: 5px;
+  font-size: 14px;
+  
+  
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box; */
+} 
+.top{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #f5f5f5; 
+  font-size: 14px;
+  line-height: 30px;
+}
+.top view{
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.center{
+   display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.cencen{
+ padding-bottom: 43px;
+}
+.center image{
+  width: 32px;
+  height: 30px;
+}
+.text view{
+  display: block;
+   padding-left: 10px;
+}
+.text text{
+  display: block;
+   padding-left: 10px;
+   color: #979797;
+   line-height: 22px;
+}
+.text view text{
+  padding-left: 0px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  position: fixed;
+  bottom: 0px;
+  padding-top: 10rpx;
+  border-top: 1px solid #D1D1D1;
+}
+.footer image{
+  width: 45rpx;
+  height: 45rpx;
+  }
+
+.footer-cen{
+  display: flex;
+  flex-direction:column;
+  font-size: 14px;
+}
+.footer-cen text{
+  margin-left: -8rpx;
+}

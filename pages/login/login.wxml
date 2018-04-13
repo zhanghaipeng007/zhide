@@ -1,0 +1,29 @@
+<!--pages/my/my.wxml-->
+<view class="wrap">
+    <view class="div">
+      <view class='myname'>
+        <image src='{{userInfo.Pic}}' />
+        <text>{{userInfo.Name}}</text>
+      </view>
+      <view class='lianjie'>
+        <image src='../../images/ll.png' class='zj' />
+      </view>
+      <view class='enterprise'>
+        <image src='../../images/lj.png' />
+        <text>猎聘同道</text>
+      </view>
+    </view>
+    <!--登录注册  -->
+    <view class='login'>
+      <view>
+        <image src='../../images/inp (2).jpg' />
+        <input type='text' placeholder-class="phcolor" placeholder='请输入手机号'></input>
+      </view>
+      <view>
+        <image src='../../images/inp (1).jpg' />
+        <input type='text' id='input' name="input" placeholder-class="phcolor" bindblur="bindInputBlur" placeholder='请输入验证码'></input>
+        <text>{{codeV}}</text>
+      </view>
+      <button bindtap="btn">进入小程序</button>
+    </view>
+</view>

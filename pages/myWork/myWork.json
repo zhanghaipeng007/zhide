@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "猎聘|精英人才招...",
+  "tabBar": {
+    "list": [
+      {
+        "selectedIconPath": "images/1_11.jpg",
+        "iconPath": "images/1_11.jpg",
+        "pagePath": "pages/myWork/myWork",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/2_13.jpg",
+        "iconPath": "images/2_13.jpg",
+        "pagePath": "pages/login/login",
+        "text": "我的"
+      }
+    ]
+  }
+}

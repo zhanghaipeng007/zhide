@@ -1,0 +1,14 @@
+<!--pages/entry/entry.wxml-->
+<block>
+<view class='box'>
+<view class='entry-top' bindtap="bindViewTap">
+<image src='../../images/01.png' class='img-top'/>
+</view>
+<view class='entry-bottom'  bindtap="enterprise">
+<image src='../../images/02.png' class='img-bottom'/>
+</view>
+</view>
+
+</block>
+<text></text>
+ 

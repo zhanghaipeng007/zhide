@@ -1,0 +1,23 @@
+/* pages/enterprise/enterprise.wxss */
+.box{
+  height: 1200rpx;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523513016488&di=f9219f9572c86cb29b61aec5ddaecb3c&imgtype=0&src=http%3A%2F%2Fhiphotos.baidu.com%2Ffeed%2Fpic%2Fitem%2Fcdbf6c81800a19d886bcd60638fa828ba61e4671.jpg);
+  background-size: 100% 100%;
+}
+.register-enroll{
+ padding: 1000rpx 20rpx 0rpx 20rpx; 
+  display: flex;
+  flex-direction: row;
+}
+.register-enroll button{
+  background: rgba(255, 255, 255, 0.2);
+  color: white
+}
+.register{
+  width: 50%;
+  padding: 20rpx;
+}
+.enroll{
+  width: 50%;
+  padding: 20rpx;
+}

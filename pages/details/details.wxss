@@ -1,0 +1,136 @@
+/* pages/details/details.wxss */
+.box{
+  background: #fff;
+}
+.details-roof{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 60rpx 10rpx;
+  /* background-color: red; */
+}
+.logo{
+  width: 68rpx;
+  height: 68rpx;
+  padding: 10rpx 50rpx 0 0;
+}
+.roof-name text{
+  font-size: 40rpx;
+}
+.roof-describe{
+  padding: 0 0 0 20rpx;
+  font-size: 24rpx;
+}
+.content{
+  padding: 0 0 0 10rpx;
+}
+.manager{
+  font-size: 40rpx
+}
+.pay{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15rpx;
+}
+.pay-money{
+  font-size: 35rpx;
+  color: red;
+}
+.pay-feedback{
+  width: 160rpx;
+  color: #fff;
+  font-size:20rpx;
+  margin-left: 30rpx;
+  background-color: #cccccc;
+ text-align: center;
+}
+.message{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15rpx;
+}
+.message-L{
+  width: 33.33%;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.message-L text{
+  margin-left: 10rpx;
+  color: #ADADAD;
+}
+.message-logo{
+  width: 30rpx;
+  height: 30rpx;
+}
+.company{
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx 0 0 0;
+}
+.company-img{
+  width: 130rpx;
+  height: 100rpx;
+}
+.company-right{
+  font-size: 30rpx;
+}
+.company-name{
+  margin-left: 25rpx;
+}
+.company-scale{
+  display: flex;
+  flex-direction: row;
+  font-size: 25rpx;
+  margin-top: 20rpx;
+}
+.company-text{
+ margin-left: 25rpx;
+ text-align: center;
+}
+.introduce{
+  padding: 25rpx 0 0 10rpx;
+}
+.introduce-post text{
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.introduce-job{
+  font-size: 40rpx;
+  margin-top: 20rpx;
+}
+.introduce-require{
+  font-size: 26rpx;
+  color: #6B6B6B;
+  margin-top: 20rpx;
+}
+.introduce-bottom{
+  padding: 0 0 0 10rpx;
+}
+.details-bottom{
+  padding: 10rpx 0 10rpx 20rpx;
+  display: flex;
+  flex-direction: row;
+  border-top: 3rpx #E8E8E8 solid;
+}
+.enshrine{
+  width: 200rpx;
+  font-size: 12px;
+}
+.enshrine-img{
+  width: 40rpx;
+  height: 40rpx;
+  padding-left: 15px;
+}
+.immediately{
+  width: 500rpx;
+  height: 80rpx;
+  background: #FF6644;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+}

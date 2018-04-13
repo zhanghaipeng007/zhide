@@ -1,0 +1,72 @@
+<!--pages/rpRegistration/rpRegistration.wxml-->
+
+<view>
+  <view class='list'>
+    <view>
+        <text>单位名称：</text>
+        <view>
+          <input type='text' bindblur="bindInputBlur" ></input>
+        </view>
+    </view>
+    <view>
+        <text>所在地：</text>
+        <view class='aa'>
+          <picker bindchange="bindPickerChange0" value="{{brandindex}}" range="{{brands}}">  
+            <view class="picker">  
+               <input type='text' value='{{brands[brandindex]}}'></input>
+            </view>  
+          </picker> 
+          <view class='shen'>省</view>
+           <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{object}}">  
+            <view class="picker">  
+              <input type='text' value='{{object[index1]}}'></input> 
+            </view>  
+          </picker>  
+          <view class='shen'>市</view>
+        </view>
+    </view>
+    <view>
+        <text>联系人：</text>
+        <view class='sex'>
+          <input type='text'  bindblur="bindInputBlur3"></input>
+          <radio-group class="radio-group" bindchange="checkboxChange">
+              <label class="radio">
+                  <radio value="男" checked=""/>先
+                  <radio value="女" checked=""/>女
+              </label>
+          </radio-group>
+        </view>
+    </view>
+    <view>
+        <text>联系电话：</text>
+        <view>
+          <input type='text'></input>
+        </view>
+    </view>
+    <view>
+        <text>电子邮箱：</text>
+        <view>
+          <input type='text'></input>
+        </view>
+    </view>
+    <view>
+        <text>用户名：</text>
+        <view>
+          <input type='text'></input>
+        </view>
+    </view>
+    <view>
+        <text>密码：</text>
+        <view>
+          <input type='text'></input>
+        </view>
+    </view>
+    <view>
+        <text>验证码：</text>
+        <view>
+          <input type='text'></input>
+        </view>
+    </view>
+    <button>免费注册</button>
+  </view> 
+</view>

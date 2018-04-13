@@ -1,0 +1,83 @@
+/* pages/rpRegistration/rpRegistration.wxss */
+
+.list{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-direction: column;
+}
+.list>view {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+.list>view>view{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+}
+.list>view text {
+  width: 30%;
+  font-size: 16px;
+  line-height: 40px;
+}
+.list>view>view>input{
+  width: 100%;
+   padding: 5px; 
+  border: 1px solid #ccc;
+}
+
+
+button{
+  margin-top: 30px;
+  position:relative;
+display:block;
+margin-left:auto;
+margin-right:auto;
+padding-left:50px;
+padding-right:50px;
+box-sizing:border-box;
+font-size:18px;
+text-align:center;
+text-decoration:none;
+line-height:2.55555556;
+border-radius:5px;
+-webkit-tap-highlight-color:transparent;
+overflow:hidden;
+color:#fff;
+background-color:#FF8B26;
+background: -webkit-linear-gradient(top, #FFA90C 0%,#FF8B26 100%);
+}
+/*所在地  */
+.aa{
+  width: 100%;
+}
+picker{
+  display: block;
+  width: 50%;
+}
+.picker{
+  width: 100%;
+}
+.picker input{
+  width: 90%;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 5px;
+}
+.shen{
+  padding: 0 10px;
+  line-height: 40px;
+}
+/*性别  */
+.radio{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  line-height: 36px;
+  font-size: 12px;
+}
+.radio-group radio{
+  padding-left: 5px;
+}

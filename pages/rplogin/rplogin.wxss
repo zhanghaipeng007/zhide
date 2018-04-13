@@ -1,0 +1,59 @@
+/* pages/rplogin/rplogin.wxss */
+.top{
+  display: flex;
+  flex-direction: row;
+  padding-left: 90rpx;
+  margin-bottom: 100rpx;
+}
+.top text{
+  padding: 0px 20rpx 0px 20rpx;
+}
+.xian{
+  width: 25%;
+  height: 2px;
+  margin-top:10px; 
+  background:#F3F3F3;
+}
+.denglu{
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  border-bottom: 1px solid #F4F4F4;
+}
+.but{
+  width: 80%;
+  color: #BEBEBE;
+  background: #FFFFFF;
+
+}
+
+.log{
+  width: 90%;
+  background: #1A8AFA;
+  color: #F7FCFF;
+}
+.text{
+  width: 90%;
+  font-size: 24rpx;
+  margin: 0 auto;
+  line-height:56rpx;
+  color: #BEC4DC;
+}
+.text radio-group{
+  display: inline-block;
+}
+.text radio-group radio{
+zoom: 65%;
+}
+.se{
+   color: #2F96FA; 
+  margin-left: -40rpx;
+
+}
+.sb{
+   color: #2F96FA; 
+  margin-left: 50%;
+}
+.size{
+   display: flex;
+}

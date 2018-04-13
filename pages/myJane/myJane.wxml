@@ -1,0 +1,66 @@
+<!--pages/myJane/myJane.wxml-->
+<view class='con'>
+   <text class="title">更改简历</text>
+</view>
+<view class='content'>
+      <view>
+          <text>姓　　名：\t</text>
+          <input type='text' class='name'></input>
+      </view>
+      <view>
+          <text>性　　别：\t</text>
+          <radio-group class="radio-group" bindchange="radioChange">
+              <label class="radio" wx:for="{{items}}">
+                <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+              </label>
+          </radio-group>
+      </view>
+      <view>
+          <text>年　　龄：\t</text>
+          <input type='text' class='name'></input>
+      </view>
+      <view>
+          <text>身份证号：\t</text>
+          <input type='text' class='name'></input>
+      </view>
+      <view>
+          <text>民　　族：\t</text>
+          <input type='text' class='name'></input>
+      </view>
+      <view>
+          <text>户籍住址：\t</text>
+          <input type='text' class='name'></input>
+      </view>
+      <view>
+          <text>现　住址：\t</text>
+          <input type='text' class='name'></input>
+      </view>
+      <view>
+          <text>婚姻状况：\t</text>
+          <input type='text' class='name'></input>
+      </view>
+      <view>
+          <text>联系电话：\t</text>
+          <input type='text' class='name'></input>
+      </view>
+      <view>
+          <text>个人技能：\t</text>
+          <input type='text' class='name'></input>
+      </view>
+      <view>
+          <text>教育情况：\t</text>
+          <input type='text' class='name'></input>
+      </view>
+      <view>
+        <text>工作状态：\t</text>
+        <picker bindchange="bindPickerChange" value="{                {areaIndex}}" range="{{area}}" class='sol'>  
+           <view class="picker">  
+             {{area[areaIndex]}}  
+           </view>  
+        </picker>  
+      </view>
+      <view>
+          <text>工作经历：\t</text>
+          <textarea placeholder="请描述您的工作经历" class="textar" name="textarea"/>  
+      </view>  
+</view>

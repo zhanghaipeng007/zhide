@@ -1,0 +1,100 @@
+<!--pages/details/details.wxml-->
+<block>
+<view class='box'>
+<view class='details-roof'>
+<view class='roof-logo'>
+<image src='../../images/03.png' class='logo'/>
+</view>
+<view class='roof-name'>
+<text>猎聘</text>
+</view>
+<view class='roof-describe'>
+<text>让职场人更成功</text>
+</view>
+</view>
+<view class='content'>
+<view class='manager'>
+<text>销售经理</text>
+</view>
+<view class='pay'>
+<view class='pay-money'>
+<text>6-12万</text>
+</view>
+<view class='pay-feedback'>
+<text>平均5天反馈</text>
+</view>
+</view>
+<view class='message'>
+<view class='message-L'>
+<image src='../../images/04.jpg' class='message-logo'/>
+<text>3年以上</text>
+</view>
+<view class='message-L'>
+<image src='../../images/05.jpg' class='message-logo'/>
+<text>北京-前门</text>
+</view>
+<view class='message-L'>
+<image src='../../images/06.jpg' class='message-logo'/>
+<text>大专及以上</text>
+</view>
+</view>
+<view class='company'>
+<view>
+<image src='../../images/07.jpg' class='company-img'/>
+</view>
+<view class='company-right'>
+<view class='company-name'>
+<text>广州康普顿至高建材有限公司</text>
+</view>
+<view class='company-scale'>
+<view class='company-text'>
+<text>建筑工程</text>
+</view>
+<view class='company-text'>
+<text>100-499人</text>
+</view>
+<view class='company-text'>
+<text>外商独资·外企办事处</text>
+</view>
+</view>
+</view>
+</view>
+</view>
+<view class='introduce'>
+<view class='introduce-post'>
+<text>职位介绍</text>
+</view>
+<view class='introduce-job'>
+<text>岗位职责：</text>
+</view>
+<view class='introduce-require'>
+<text>1.公司产品销售，与公司各部门协调配合确保销售计划顺利完成；</text>
+</view>
+<view class='introduce-require'>
+<text>2.提供优质的售后服务，处理客户投诉、及时反馈质量问题；</text>
+</view>
+<view class='introduce-require'>
+<text>3.负责售后汇款公作；</text>
+</view>
+<view class='introduce-require'>
+<text>4.开发客户，跟进项目，推动公司产品.；</text>
+</view>
+</view>
+<view class='introduce-bottom'>
+<view class='introduce-job'>
+<text>技能要求：</text>
+</view>
+<view class='introduce-require'>
+<text>1.性格外向，反应敏捷，表达能力强，具有较强的沟通能力及交际技巧，培训能力强，具有亲和力和一定的公关能力；</text>
+</view>
+</view>
+<view class='details-bottom'>
+<view class='enshrine'>
+<image src='../../images/08.jpg' class='enshrine-img'/>
+<view>收藏职位</view>
+</view>
+<view class='immediately'><text>立即应聘</text></view>
+</view>
+</view>
+
+</block>

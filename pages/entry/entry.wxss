@@ -1,0 +1,35 @@
+/* pages/entry/entry.wxss */
+.box{
+  height: 1200rpx;
+  background-color: #777777;
+  padding: 0 20rpx 0 20rpx;
+}
+.entry-top{
+  width: 750Rpx;
+  height: 300rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 35%;
+}
+.img-top{
+  width: 200rpx;
+  height: 200rpx;
+  background-image: #777777;
+}
+.entry-bottom{
+  width: 750Rpx;
+  height: 300rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 35%;
+  margin-top: 20rpx;
+}
+.img-bottom{
+  width: 200rpx;
+  height: 200rpx;
+  background-image: #777777;
+}
